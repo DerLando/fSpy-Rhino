@@ -48,6 +48,9 @@ namespace fSpy_Rhino
         {
             bool read_success = false;
             // TODO: Add code for reading file
+
+            Core.BinaryParser.Parse(filename);
+
             return read_success;
         }
 
